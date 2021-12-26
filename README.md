@@ -1,5 +1,5 @@
 
-# STORE
+#  STORES
 
 ## PROJECT DESCRIPTION
 
