@@ -1,19 +1,23 @@
-package com.example.stores
+package com.example.stores.Activities
 
-import android.content.DialogInterface
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.security.identity.AccessControlProfileId
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
+import com.example.stores.*
+import com.example.stores.Adapters.StoreAdapter
+import com.example.stores.Interfaces.MainAux
+import com.example.stores.Interfaces.OnclickListener
+import com.example.stores.Models.StoreApplication
+import com.example.stores.Models.StoreEntity
 import com.example.stores.databinding.ActivityMainBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 
-class MainActivity() : AppCompatActivity(), OnclickListener, MainAux{
+class MainActivity() : AppCompatActivity(), OnclickListener, MainAux {
 
     private lateinit var mBinding: ActivityMainBinding
     private lateinit var mAdapter: StoreAdapter

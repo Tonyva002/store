@@ -1,4 +1,4 @@
-package com.example.stores
+package com.example.stores.Activities
 
 import android.content.Context
 import android.os.Bundle
@@ -9,6 +9,9 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.example.stores.R
+import com.example.stores.Models.StoreApplication
+import com.example.stores.Models.StoreEntity
 import com.example.stores.databinding.FragmentEditStoreBinding
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout

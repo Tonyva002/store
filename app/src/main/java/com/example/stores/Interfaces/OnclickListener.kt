@@ -1,4 +1,6 @@
-package com.example.stores
+package com.example.stores.Interfaces
+
+import com.example.stores.Models.StoreEntity
 
 interface OnclickListener {
 

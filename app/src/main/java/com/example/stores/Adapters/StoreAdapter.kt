@@ -1,4 +1,4 @@
-package com.example.stores
+package com.example.stores.Adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,6 +7,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.example.stores.Interfaces.OnclickListener
+import com.example.stores.R
+import com.example.stores.Models.StoreEntity
 import com.example.stores.databinding.ItemStoreBinding
 
 class StoreAdapter (private var stores: MutableList<StoreEntity>, private var listener: OnclickListener) :
