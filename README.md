@@ -3,7 +3,17 @@
 
 ## PROJECT DESCRIPTION
 
-This application allows you to create, read, update and delete stores. Once you open the application by clicking on the add button, you can fill in the indicated fields and add a store, then you can add it to a favorite, edit it by clicking on the store, and clicking for a few seconds on the store the options open to remove it, call the store's phone number and go to their website..
+This application allows you to create, read, update and delete stores. Once you open the application by clicking on the add button, you can fill in the indicated fields and add a store, then you can add it to a favorite, edit it by clicking on the store, and clicking for a few seconds on the store the options open to remove it, call the store's phone number and go to their website.
+
+### Links
+📌 Live site URL: [here](https://https://github.com/Tonyva002/store)
+
+### Built with
+
+- Kotlin
+- Android
+- Glide
+- Sqlite
 
 ### Necessary tool:
 
